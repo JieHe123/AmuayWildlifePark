@@ -1,0 +1,53 @@
+.Walking_tour {
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.walking_tour_img {
+  padding-top: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Discover_animals {
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+}
+
+.discover_animals_img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Discover_plants {
+  text-align: center;
+  padding: 5%;
+  padding-top:0;
+}
+
+.discover_animals_img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+}

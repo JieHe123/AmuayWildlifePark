@@ -12,12 +12,13 @@
 
   <title>Walking Tour</title>
   <link rel="stylesheet" href="../static/main.css">
+  <link rel="stylesheet" href="../static/Walking tour.css">
 </head>
 <body>
   <div class="container">
     <a class="logo" href="#">AMUAY<div class="logo-second-line">Wildlife Park</div></a>
     <input type="checkbox" id="toggleNav">
-    <label for="toggleNav" class="toggleLook">&#9776</label>
+    <label for="toggleNav" class="toggleLook"></label>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -27,57 +28,60 @@
       </ul>
     </nav>
   </div>
-
-  <section class="Walking_tour_middle1">
+  <section class="Walking_tour">
     <h1>Walking Tour</h1>
     <h4>Map of route to discover animals and plants</h4>
-    <img src="../images/map_guide.jpg" alt="Guide ">
-
-
-  <section class="Walking_tour_middle2">
+    <img src="../images/map_guide.jpg" alt="Guide " class="walking_tour_img">
+  </section>
+<div class="content">
+  <section class="Discover_animals">
     <h1>Discover animals</h1>
-    <img src="../images/dear_in_walking_tour.jpg" alt="Deer">
+    <img src="../images/dear_in_walking_tour.jpg" alt="Deer" class="discover_animals_img">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aliquam inventore, repellat id dicta, doloribus eaque tenetur! Expedita alias animi, voluptatibus ipsum, beatae, accusantium sunt dolore doloribus nam consectetur dolores.</p>
-
-    <h1>Discover plants</h1>
-    <img src="../images/Cacti.jpg" alt="Cacti">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aliquam inventore, repellat id dicta, doloribus eaque tenetur! Expedita alias animi, voluptatibus ipsum, beatae, accusantium sunt dolore doloribus nam consectetur dolores.</p>
-
   </section>
 
-  <footer>
-    <div class="flex-container">
-      <div class="left-division">
-        <h3>AMUAY<span> Wildlife Park </span></h3>
-        <ul class="contact-information">
-          <li><h4>Phone</h4></li>
-          <li>+58 123 456 7890</li>
-          <li><h4>Email</h4></li>
-          <li>info@amuaywp.com</li>
-          <li><h4>Address</h4></li>
-          <li>Venezuela, South American</li>
-        </ul>
-      </div>
+  <section class="Discover_plants">
+    <h1>Discover plants</h1>
+    <img src="../images/Cacti.jpg" alt="Cacti" class="discover_animals_img">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aliquam inventore, repellat id dicta, doloribus eaque tenetur! Expedita alias animi, voluptatibus ipsum, beatae, accusantium sunt dolore doloribus nam consectetur dolores.</p>
+  </section>
 
-      <div class="right-division">
-        <div class="subscribe-news">
-          <form action="">
-            <label for="email" class="newsletter" style="font-weight: bold">Newsletter Signup</label>
-            <input type="text" id="email" name="email" placeholder="Email Address">
-            <input type="submit" class="subscribe" value="Subscribe">
-          </form>
-        </div>
 
-        <hr style="width:65%">
-
-        <ul class="social">
-          <li><h5>Follow Us</h5></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-        </ul>
-      </div>
+</div>
+<footer>
+  <div class="flex-container">
+    <div class="left-division">
+      <h3>AMUAY<span> Wildlife Park </span></h3>
+      <ul class="contact-information">
+        <li><h4>Phone</h4></li>
+        <li>+58 123 456 7890</li>
+        <li><h4>Email</h4></li>
+        <li>info@amuaywp.com</li>
+        <li><h4>Address</h4></li>
+        <li>Venezuela, South American</li>
+      </ul>
     </div>
-  </footer>
+
+    <div class="right-division">
+      <div class="subscribe-news">
+        <form action="">
+          <label for="email" class="newsletter" style="font-weight: bold">Newsletter Signup</label>
+          <input type="text" id="email" name="email" placeholder="Email Address">
+          <input type="submit" class="subscribe" value="Subscribe">
+        </form>
+      </div>
+
+      <hr style="width:65%">
+
+      <ul class="social">
+        <li><h5>Follow Us</h5></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
