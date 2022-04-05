@@ -1,0 +1,81 @@
+.plants_section {
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+  border: 1px darkGreen solid;
+}
+
+
+.plants_typ_img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .plants-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+}
+
+.search_text{
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+  border: 10px;
+
+}
+#plants-categories {
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+}
+
+#plants-status {
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+}
+
+@media screen and (min-width: 600px) {
+  .search-plants {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+}
+
+#ferns{
+  display: flex;
+  align-content: center;
+  width: 100%;
+  padding: 5px;
+
+}
+
+.button1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+#loadmore{
+  font-size: 1.5rem;
+  background-color: darkGreen;
+  color: White;
+    padding: 5px;
+  border-radius: 10px;
+}
+.search_text{
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  padding: 10px;
+}

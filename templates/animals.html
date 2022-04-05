@@ -12,6 +12,7 @@
 
   <title>Animals in the Amuay Wildlife Park</title>
   <link rel="stylesheet" href="../static/main.css">
+  <link rel="stylesheet" href="../static/Wildlife-Animals.css">
 </head>
 <body>
   <div class="container">
@@ -30,20 +31,23 @@
 
   <section class="animals-top">
     <h3>ANIMALS</h3>
-    <img src="images/zibra.jpeg" alt="zibra">
+    <img src="../images/zibra.jpeg" alt="zibra" id="zibra">
   </section>
 
   <section class="search-animals">
-    <p>SEARCH ANIMALS BY</p>
-    <select name="animals-categories" id="animals-categories">
-      <option value="Catetory">Catetory</option>
-      <option value="Reptiles">Reptiles</option>
-      <option value="Mammals">Mammals</option>
-      <option value="Arthropods">Arthropods</option>
-      <option value="Birds">Birds</option>
-      <option value="Fish">Fish</option>
-      <option value="Amphibians">Amphibians</option>
-    </select>
+
+        <p class="search_text">SEARCH ANIMALS BY</p>
+
+      <select name="animals-categories" id="animals-categories">
+        <option value="Catetory">Catetory</option>
+        <option value="Reptiles">Reptiles</option>
+        <option value="Mammals">Mammals</option>
+        <option value="Arthropods">Arthropods</option>
+        <option value="Birds">Birds</option>
+        <option value="Fish">Fish</option>
+        <option value="Amphibians">Amphibians</option>
+        </select>
+
 
     <select name="animals-status" id="animals-status">
       <option value="Conservation Status">Conservation Status</option>
@@ -54,47 +58,50 @@
       <option value="Stable">Stable</option>
     </select>
 
+
+  </section>
+
     <div class="animals-info">
-      <ul>
-        <li>
-          <img src="../images/sloth.jpg" alt="sloth">
-          <p>Sloth</p>
-          <p>Status:<span>Some Threatened</span></p>
-        </li>
+      <div class="animal_section">
+        <img src="../images/sloth.jpg" alt="sloth" class="animals_typ_img">
+        <p>Sloth</p>
+        <p>Status:<span>Some Threatened</span></p>
+      </div>
 
-        <li>
-          <img src="../images/spider monkey.jpg" alt="spider monkey">
-          <p>White-Bellied Spider Monket</p>
-          <p>Status:<span>Endangered</span></p>
-        </li>
-
-        <li>
-          <img src="../images/jaguar.jpg" alt="jaguar">
-          <p>Jaguar</p>
-          <p>Status:<span>Threatened</span></p>
-        </li>
-
-        <li>
-          <img src="../images/fox.jpg" alt="fox">
-          <p>Crab-Eating Fox</p>
-          <p>Status:<span>Stable</span></p>
-        </li>
-
-        <li>
-          <img src="../images/monkey.jpg" alt="howler monkey">
-          <p>Howler Monkey</p>
-          <p>Status:<span>Stable</span></p>
-        </li>
-
-        <li>
-          <img src="../images/capybara.jpg" alt="capybara">
-          <p>Capybara</p>
-          <p>Status:<span>Some Threatened</span></p>
-        </li>
-      </ul>
+      <div class="animal_section">
+      <img src="../images/spider monkey.jpg" alt="spider monkey" class="animals_typ_img">
+      <p>White-Bellied Spider Monket</p>
+      <p>Status:<span>Endangered</span></p>
     </div>
 
+    <div class="animal_section">
+      <img src="../images/jaguar.jpg" alt="jaguar" class="animals_typ_img">
+      <p>Jaguar</p>
+      <p>Status:<span>Threatened</span></p>
+    </div>
+    <div class="animal_section">
+            <img src="../images/fox.jpg" alt="fox" class="animals_typ_img">
+            <p>Crab-Eating Fox</p>
+            <p>Status:<span>Stable</span></p>
+          </div>
+
+        <div class="animal_section">
+            <img src="../images/monkey.jpg" alt="howler monkey"class="animals_typ_img">
+            <p>Howler Monkey</p>
+            <p>Status:<span>Stable</span></p>
+          </div>
+
+        <div class="animal_section">
+            <img src="../images/capybara.jpg" alt="capybara" class="animals_typ_img">
+            <p>Capybara</p>
+            <p>Status:<span>Some Threatened</span></p>
+          </div>
+      </div>
+
+<div class="button1">
     <button id="loadmore">Load More</button>
+</div>
+
 
   </section>
 

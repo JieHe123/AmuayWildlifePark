@@ -12,6 +12,9 @@
 
   <title>Plants in the Amuay Wildlife Park</title>
   <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/Wildlife-Plants.css">
+
+
 </head>
 <body>
   <div class="container">
@@ -30,73 +33,75 @@
 
   <section class="plants-top">
     <h3>PLANTS</h3>
-    <img src="../images/plant.jpeg" alt="ferns">
+    <img src="../images/plant.jpeg" alt="ferns" id="ferns"">
   </section>
 
   <section class="search-plants">
-    <p>SEARCH PLANTS BY</p>
-    <select name="plants-categories" id="plants-categories">
-      <option value="Catetory">Catetory</option>
-      <option value="Ferns">Ferns</option>
-      <option value="Flowers">Flowers</option>
-      <option value="Grasses">Grasses</option>
-      <option value="Herbs">Herbs</option>
-      <option value="Palms">Palms</option>
-      <option value=Cactus">Cactus</option>
-    </select>
 
-    <select name="animals-status" id="animals-status">
-      <option value="Conservation Status">Conservation Status</option>
-      <option value="Endangered">Endangered</option>
-      <option value="Some Threatened">Some Endangered</option>
-      <option value="Threatened">Threatened</option>
-      <option value="Some Threatened">Some Threatened</option>
-      <option value="Stable">Stable</option>
-    </select>
+        <p class="search_text">SEARCH PlANTS BY</p>
+
+        <select name="plants-categories" id="plants-categories">
+          <option value="Catetory">Catetory</option>
+          <option value="Ferns">Ferns</option>
+          <option value="Flowers">Flowers</option>
+          <option value="Grasses">Grasses</option>
+          <option value="Herbs">Herbs</option>
+          <option value="Palms">Palms</option>
+          <option value=Cactus">Cactus</option>
+        </select>
+
+        <select name="plantss-status" id="plants-status">
+          <option value="Conservation Status">Conservation Status</option>
+          <option value="Endangered">Endangered</option>
+          <option value="Some Threatened">Some Endangered</option>
+          <option value="Threatened">Threatened</option>
+          <option value="Some Threatened">Some Threatened</option>
+          <option value="Stable">Stable</option>
+        </select>
+  </section>
 
     <div class="plants-info">
-      <ul>
-        <li>
-          <img src="../images/Andean Lupine Flower.jpeg" alt="Lupine">
-          <p>Lupine</p>
-          <p>Status:<span>Stable</span></p>
-        </li>
+      <div class="plants_section">
+        <img src="../images/Andean Lupine Flower.jpeg" alt="Lupine" class="plants_typ_img">
+        <p>Lupine</p>
+        <p>Status:<span>Stable</span></p>
+      </div>
 
-        <li>
-          <img src="../images/Araguaney Tree.jpeg" alt="Araguaney">
-          <p>Araguaney</p>
-          <p>Status:<span>Stable</span></p>
-        </li>
-
-        <li>
-          <img src="../images/Hero_ginger.jpg" alt="ginger">
-          <p>Ginger</p>
-          <p>Status:<span>Some Threatened</span></p>
-        </li>
-
-        <li>
-          <img src="../images/cactus.jpg" alt="cactus">
-          <p>Cactus</p>
-          <p>Status:<span>Some Endangered</span></p>
-        </li>
-
-        <li>
-          <img src="../images/Moriche Palm Tree.jpeg" alt="moriche palm">
-          <p>Moriche Palm</p>
-          <p>Status:<span>Some Threatened</span></p>
-        </li>
-
-        <li>
-          <img src="../images/Orchids.jpeg" alt="orchids">
-          <p>Orchids</p>
-          <p>Status:<span>Some Threatened</span></p>
-        </li>
-      </ul>
+      <div class="plants_section">
+        <img src="../images/Araguaney Tree.jpeg" alt="Araguaney" class="plants_typ_img">
+        <p>Araguaney</p>
+        <p>Status:<span>Stable</span></p>
     </div>
 
-    <button id="loadmore">Load More</button>
+    <div class="plants_section">
+      <img src="../images/Hero_ginger.jpg" alt="ginger" class="plants_typ_img">
+      <p>Ginger</p>
+      <p>Status:<span>Some Threatened</span></p>
+    </div>
 
-  </section>
+    <div class="plants_section">
+      <img src="../images/cactus.jpg" alt="cactus" class="plants_typ_img">
+      <p>Cactus</p>
+      <p>Status:<span>Some Endangered</span></p>
+    </div>
+
+        <div class="plants_section">
+          <img src="../images/Moriche Palm Tree.jpeg" alt="moriche palm" class="plants_typ_img">
+          <p>Moriche Palm</p>
+          <p>Status:<span>Some Threatened</span></p>
+          </div>
+
+      <div class="plants_section">
+          <img src="../images/Orchids.jpeg" alt="orchids" class="plants_typ_img">
+          <p>Orchids</p>
+          <p>Status:<span>Some Threatened</span></p>
+          </div>
+      </div>
+
+  <div class="button1">
+    <button id="loadmore">Load More</button>
+  </div>
+
 
   <footer>
     <div class="flex-container">

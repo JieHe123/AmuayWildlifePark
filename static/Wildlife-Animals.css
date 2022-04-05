@@ -1,0 +1,81 @@
+.animal_section {
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+  border: 1px darkGreen solid;
+}
+
+.animals_typ_img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .animals-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+}
+
+.search_text{
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+  border: 10px;
+
+}
+#animals-categories {
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+
+}
+
+#animals-status {
+  text-align: center;
+  padding:5%;
+  padding-top:0;
+}
+
+@media screen and (min-width: 600px) {
+  .search-animals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+}
+
+.button1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+#loadmore{
+  font-size: 1.5rem;
+  background-color: darkGreen;
+  color: White;
+    padding: 5px;
+  border-radius: 10px;
+}
+.search_text{
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  padding: 10px;
+}
+
+#zibra{
+  display: flex;
+  align-content: center;
+  width: 100%;
+  padding: 5spx;
+
+}
