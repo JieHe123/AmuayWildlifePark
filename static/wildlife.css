@@ -3,8 +3,8 @@
   --lightGreen: #BDBF09;
 }
 
-*{
-  padding:0;
+* {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -17,8 +17,8 @@ body {
 .container {
   background-color: var(--darkGreen);
   padding: 1em;
-  width:100%;
-  top:0;
+  width: 100%;
+  top: 0;
 }
 
 .logo {
@@ -44,7 +44,7 @@ nav a {
   background-color: var(--lightGreen);
 }
 
-nav a:hover{
+nav a:hover {
   background-color: white;
   color: var(--darkGreen);
   cursor: pointer;
@@ -68,8 +68,8 @@ nav {
   z-index: 10;
 }
 
-#toggleNav:checked ~ nav {
-  right:0;
+#toggleNav:checked~nav {
+  right: 0;
 }
 
 .toggleLook {
@@ -96,7 +96,7 @@ nav {
   text-align: center;
 }
 
-.left-division span{
+.left-division span {
   color: white;
   font-family: 'ZCOOL KuaiLe', cursive;
   font-size: 0.8em;
@@ -113,7 +113,7 @@ nav {
   font-weight: bold;
 }
 
-.contact-information h4{
+.contact-information h4 {
   color: var(--darkGreen);
 }
 
@@ -136,8 +136,8 @@ nav {
 }
 
 #email {
-    width: 200px;
-    height: 25px;
+  width: 200px;
+  height: 25px;
 }
 
 hr {
@@ -156,7 +156,7 @@ hr {
 }
 
 .social i {
-  color:white;
+  color: white;
 }
 
 .lionDriking-img {
@@ -167,7 +167,7 @@ hr {
   margin-right: auto;
 }
 
-h2{
+h2 {
   display: flex;
   top: 115px;
   width: 100%;
@@ -201,7 +201,6 @@ h2{
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 30px;
-  
 }
 
 .animal {
@@ -224,7 +223,7 @@ h2{
   width: 100%;
 }
 
-.middle-container{
+.middle-container {
   display: block;
   text-align: center;
 }
@@ -240,7 +239,7 @@ h2{
   }
 
   nav {
-    right:0;
+    right: 0;
     top: 20px;
     position: absolute;
   }
@@ -261,7 +260,7 @@ h2{
     justify-content: space-between;
   }
 
-  .right-division{
+  .right-division {
     width: 50%;
     text-align: center;
   }
@@ -274,7 +273,6 @@ h2{
   .newsletter {
     padding-top: 15px;
     text-align: center;
-
   }
 
   .subscribe {
@@ -298,18 +296,17 @@ h2{
   }
 
   .social {
-      padding-top: 20px;
-      font-size: 1.4em;
+    padding-top: 20px;
+    font-size: 1.4em;
   }
-
-  
 }
+
 @media screen and (min-width: 800px) {
-  h2{
+  h2 {
     top: 130px;
     font-size: 35px;
   }
-  
+
   .h3-top {
     top: 200px;
     font-size: 25px;
@@ -319,14 +316,14 @@ h2{
     font-size: 20px;
   }
 
-  .middle-container{
+  .middle-container {
     display: flex;
   }
 
-  .plant-container{
-    flex:1;
+  .plant-container {
+    flex: 1;
   }
- 
+
   .animal-container {
     flex: 1;
   }
@@ -337,18 +334,17 @@ h2{
     top: -130px;
   }
 
-  .animal{
+  .animal {
     height: 77%;
   }
-
 }
 
 @media screen and (min-width: 1080px) {
-  h2{
+  h2 {
     top: 150px;
     font-size: 45px;
   }
-  
+
   .h3-top {
     top: 250px;
     font-size: 35px;
