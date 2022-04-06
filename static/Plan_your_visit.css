@@ -1,69 +1,78 @@
 section {
-    margin: 0 5%;
+  margin: 0 5%;
 }
 
 .imageSection img {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .imageSection p {
-    height: auto;
-    font-family: sans-serif;
-    width: 100%;
-    word-wrap: break-word;
-    text-align: left;
-    margin: 10% auto 0 auto;
+  height: auto;
+  font-family: sans-serif;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: justify;
+  margin: 10% auto 0 auto;
 }
 
 .plan_your_visit_middle h1 {
-    text-align: center;
-    margin: 10% -5%;
-    font-size: 40px;
-    font-family: cursive;
+  text-align: center;
+  margin: 5% -5%;
+  font-size: 40px;
+  font-family: cursive;
 }
 
 .allImage div {
-    /* flex: 1 0 500px; */
-    text-align: center;
-    margin: 30px;
-    padding: 10px 0px;
-    color: #000;
-    align-items: center;
-    justify-content: center;
+  /* flex: 1 0 500px; */
+  text-align: center;
+  margin: 30px;
+  padding: 10px 0px;
+  color: #000;
+  align-items: center;
+  justify-content: center;
 }
 
 .imageSection h3 {
-    margin-top: -15%;
-    color: white;
-    font-size: 2rem;
-}
-
-.plan_your_visit_middle button {
-    background-color: orange;
-    padding: 20px 20%;
-    font-size: 18px;
-    border: none;
-    border-radius: 12px;
-    margin: 10%;
-}
-
-.plan_your_visit_middle button:hover {
-    background-color: darkGreen;
+  margin-top: -15%;
+  color: white;
 }
 
 .plan_your_visit_middle a {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
+  background-color: orange;
+  padding: 20px 20%;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  margin: 10%;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+.plan_your_visit_middle a:hover {
+  background-color: darkGreen;
 }
 
 @media screen and (min-width: 600px) {
-    .allImage {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 5px;
-    }
+  .allImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  h3 {
+    font-size: 2rem;
+  }
 }
