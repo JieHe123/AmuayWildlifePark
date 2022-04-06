@@ -1,8 +1,7 @@
 .animal_section {
   text-align: center;
-  padding:5%;
-  padding-top:0;
-  
+  padding: 5%;
+  padding-top: 0;
 }
 
 .animals_typ_img {
@@ -15,7 +14,7 @@
 }
 
 .search-animals {
-  margin:15px;
+  margin: 15px;
   padding: 10px;
 }
 
@@ -23,27 +22,25 @@
   cursor: pointer;
   border-radius: 5em;
   background-color: var(--lightGreen);
-  color:var(--darkGreen);
+  color: var(--darkGreen);
   margin: 5px;
   width: 50%;
 }
 
-.search_text{
+.search_text {
   text-align: center;
-  padding:5%;
-  padding-top:0;
-
+  padding: 5%;
+  padding-top: 0;
 }
+
 .search-category select {
-  text-align-last:center;
-  padding:10px;
- 
+  text-align-last: center;
+  padding: 10px;
 }
 
 .search-status select {
   text-align: center;
-  padding:10px;
-
+  padding: 10px;
 }
 
 .animals-top h3 {
@@ -51,24 +48,22 @@
   top: 90px;
   width: 100%;
   position: absolute;
-  color:var(--darkGreen);
+  color: var(--darkGreen);
   justify-content: left;
   font-size: 20px;
   padding-left: 15px;
 }
 
-
-.button1{
+.button1 {
   display: flex;
   align-content: center;
   justify-content: center;
   margin: 10px;
-
 }
 
-#loadmore{
+#loadmore {
   font-size: 1rem;
-  background-color:orange;
+  background-color: orange;
   color: White;
   padding: 5px;
   border-radius: 10px;
@@ -78,30 +73,30 @@
   margin-bottom: 10px;
 }
 
-#loadmore:hover{
+#loadmore:hover {
   background-color: darkGreen;
 }
 
-.search_text{
+.search_text {
   font-weight: bold;
   display: flex;
   align-content: center;
   padding: 10px;
 }
 
-#zibra{
+#zibra {
   display: flex;
   align-content: center;
   width: 100%;
   padding: 5spx;
 }
 
-.animals-info p{
+.animals-info p {
   color: #8C4F2B;
   font-weight: bold;
 }
 
-.animals-info p span{
+.animals-info p span {
   font-weight: normal;
 }
 
@@ -126,7 +121,7 @@
   #sloth, #jaguar {
     height: 75%;
   }
-  
+
   #animals-categories, #animals-status {
     width: 100%;
   }
@@ -140,9 +135,10 @@
   }
 
   .search_text {
-    margin-left:50px;
+    margin-left: 50px;
   }
 }
+
 @media screen and (min-width: 1080px) {
   .animals-top h3 {
     font-size: 30px;
