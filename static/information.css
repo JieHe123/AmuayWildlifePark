@@ -1,328 +1,328 @@
 :root {
-    --darkGreen: #222601;
-    --lightGreen: #BDBF09;
-  }
-  
-.info-top img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+  --darkGreen: #222601;
+  --lightGreen: #BDBF09;
 }
 
-.info{
-    display: flex;
-    top: -50px;
-    width: 100%;
-    position: relative;
-    color: white;
-    justify-content: center;
-    font-size: 15px;
+.info-top img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  display: flex;
+  top: -50px;
+  width: 100%;
+  position: relative;
+  color: white;
+  justify-content: center;
+  font-size: 15px;
 }
 
 .main-information {
-    margin-right: 15px;
-    margin-left: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .faq span {
-    color:#8C4F2B;
-    font-weight: bold;
+  color: #8C4F2B;
+  font-weight: bold;
 }
 
 .faq {
-    list-style-type: none;
-    padding: 10px;
-    width:100%;
-    border: 3px solid var(--darkGreen);
-    font-family: Arial, Helvetica, sans-serif;    
+  list-style-type: none;
+  padding: 10px;
+  width: 100%;
+  border: 3px solid var(--darkGreen);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .faq ul {
-    list-style-type: none;
+  list-style-type: none;
 }
+
 .map-info {
-    padding:10px;
+  padding: 10px;
 }
 
 .left-info {
-    display: flex; 
-    justify-content: center;
-    padding-top: 10px;
-    letter-spacing: .15em;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  letter-spacing: .15em;
+  padding-bottom: 10px;
 }
 
 .googleMap iframe {
-    width: 100%;
-    height: 150;
+  width: 100%;
 }
 
 .right-info {
-    display: flex; 
-    justify-content: center;
-    padding-top: 20px;
-    letter-spacing: .15em;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  letter-spacing: .15em;
+  padding-bottom: 10px;
 }
 
 .parkMap img {
-    width:100%;
+  width: 100%;
 }
 
-.time-left-info{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    letter-spacing: .15em;
+.time-left-info {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  letter-spacing: .15em;
 }
 
 .visit-time {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    border: 3px solid var(--darkGreen);
-    width: 100%;
-    margin-top: 10px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid var(--darkGreen);
+  width: 100%;
+  margin-top: 10px;
 }
 
 .time-right-info {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    letter-spacing: .15em;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  letter-spacing: .15em;
 }
 
 .feeding-time {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    border: 3px solid var(--darkGreen);
-    width: 100%;
-    margin-top: 10px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid var(--darkGreen);
+  width: 100%;
+  margin-top: 10px;
 }
-        
+
 .query p {
-    padding: 20px;
+  padding: 20px;
 }
 
 .query-icon {
-    font-size: 1em;
-    letter-spacing: .1em;
-    padding: 10px;
+  font-size: 1em;
+  letter-spacing: .1em;
+  padding: 10px;
 }
 
 .query form {
-    padding: 10px;
+  padding: 10px;
 }
 
 .query #name, #emailaddress, #phone, #theme, #message {
-    width: 100%;
-    padding: .5em;
-    margin-bottom: 1em;
-    border-radius: .3em;
-    border: 1px solid gray;
+  width: 100%;
+  padding: .5em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
 }
 
 .send-message {
-    cursor: pointer;
-    background-color: var(--darkGreen);
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
-    border-radius: 3em;
-    border: none;
-    margin-bottom: 5em;
-    padding: .8em 2em;
-  }
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 3em;
+  border: none;
+  margin-bottom: 5em;
+  padding: .8em 2em;
+}
+
+.send-message:hover {
+  background-color: var(--darkGreen);
+}
 
 @media screen and (min-width: 600px) {
-    .toggleLook {
-        display: none;
-    }
+  .toggleLook {
+    display: none;
+  }
 
-    .current a {
-        color: var(--lightGreen);
-        font-weight: bold;
-    }
+  .current a {
+    color: var(--lightGreen);
+    font-weight: bold;
+  }
 
-    nav {
-        right:0;
-        top: 20px;
-        position: absolute;
-    }
+  nav {
+    right: 0;
+    top: 20px;
+    position: absolute;
+  }
 
-    nav ul {
-        width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-    }
+  nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
 
-    nav a {
-        background-color: var(--darkGreen);
-        color: white;
-    }
+  nav a {
+    background-color: var(--darkGreen);
+    color: white;
+  }
 
-    footer .flex-container {
-        display: flex;
-        justify-content: space-between;
-    }
+  footer .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .right-division{
-        width: 50%;
-        text-align: center;
-    }
+  .right-division {
+    width: 50%;
+    text-align: center;
+  }
 
-    .left-division {
-        width: 50%;
-        text-align: left;
-    }
+  .left-division {
+    width: 50%;
+    text-align: left;
+  }
 
-    .newsletter {
-        padding-top: 15px;
-        text-align: center;
+  .newsletter {
+    padding-top: 15px;
+    text-align: center;
+  }
 
-    }
+  .subscribe {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+  }
 
-    .subscribe {
-        display: block;
-        width: 100px;
-        height: 30px;
-        margin: auto;
-    }
+  #email {
+    margin-top: 8px;
+    margin-bottom: 15px;
+  }
 
-    #email {
-        margin-top: 8px;
-        margin-bottom: 15px;
-    }
+  hr {
+    display: block;
+    margin-top: 25px;
+    border: .05px solid var(--darkGreen);
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    hr {
-        display: block;
-        margin-top: 25px;
-        border: .05px solid var(--darkGreen);
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .social {
-        padding-top: 20px;
-        font-size: 1.4em;
-    }
+  .social {
+    padding-top: 20px;
+    font-size: 1.4em;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    .info{
-        top: -200px;
-        font-size: 25px;
-    }
+  .info {
+    top: -200px;
+    font-size: 25px;
+  }
 
-    .faq {
-        top: -140px;
-        position: relative; 
-        background-color:#A4A677;  
-        width: 80%;
-        padding: 20px;
-        -webkit-box-shadow: 5px 5px 15px 5px #032302; 
-        box-shadow: 5px 5px 15px 5px #032302;
-        border: none;
-        justify-content: center;
-        left: 50%;
-        transform: translateX(-50%);    
-    }
+  .faq {
+    top: -140px;
+    position: relative;
+    background-color: #A4A677;
+    width: 80%;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #032302;
+    box-shadow: 5px 5px 15px 5px #032302;
+    border: none;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    .faq li {  
-        padding: 6px;
-    }
+  .faq li {
+    padding: 6px;
+  }
 
-    .map-info {
-        display: flex;
-        top:-100px;
-        position: relative;
-    }
+  .map-info {
+    display: flex;
+    top: -100px;
+    position: relative;
+  }
 
-    .right-info {
-        padding-top: 10px;
-    }
+  .right-info {
+    padding-top: 10px;
+  }
 
-    .left-map {
-        flex:1;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .left-map {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    .right-map {
-        flex:1;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .right-map {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    .visit-time {
-        height:85%;
-    }
-    .time-info {
-        display: flex;
-        top:-90px;
-        position: relative;
-    }
+  .visit-time {
+    height: 85%;
+  }
 
-    .time-right-info {
-        padding-top: 10px;
-    }
+  .time-info {
+    display: flex;
+    top: -90px;
+    position: relative;
+  }
 
-    .time-left {
-        flex: 1;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .time-right-info {
+    padding-top: 10px;
+  }
 
-    .time-right {
-        flex: 1;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .time-left {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    .query p {
-        font-size: 20px;
-        top:-50px;
-        position: relative;
-    }
+  .time-right {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    .query-form {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-column-gap:20px;
-        padding: 20px;
-        
-    }
+  .query p {
+    font-size: 20px;
+    top: -50px;
+    position: relative;
+  }
 
-    .query #name, #emailaddress, #phone, #theme, #message {
-        padding: 10px;   
-    }
+  .query-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+    padding: 20px;
+  }
 
-    .query-form-message {
-        display: block;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-    }
+  .query #name, #emailaddress, #phone, #theme, #message {
+    padding: 10px;
+  }
 
+  .query-form-message {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1080px) {
-    .info{
-        top: -250px;
-        font-size: 35px;
-    }
+  .info {
+    top: -250px;
+    font-size: 35px;
+  }
 
-    .faq {
-        top: -180px;
-    }
+  .faq {
+    top: -180px;
+  }
 
-    .faq li {  
-        padding: 10px;
-        font-size: 18px;
-    }
-
-
+  .faq li {
+    padding: 10px;
+    font-size: 18px;
+  }
 }
