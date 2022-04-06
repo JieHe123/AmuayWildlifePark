@@ -8,39 +8,30 @@
 
 .walking_tour_img {
   padding-top: 20px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
   width: 100%;
 }
 
 .Discover_animals {
   text-align: center;
-  padding:5%;
-  padding-top:0;
+  padding: 5%;
+  padding-top: 0;
 }
 
 .discover_animals_img {
   padding-top: 20px;
   padding-bottom: 20px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
   width: 100%;
 }
 
 .Discover_plants {
   text-align: center;
   padding: 5%;
-  padding-top:0;
+  padding-top: 0;
 }
 
 .discover_animals_img {
   padding-top: 20px;
   padding-bottom: 20px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
   width: 100%;
 }
 

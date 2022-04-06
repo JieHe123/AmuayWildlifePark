@@ -7,9 +7,6 @@
 .animals_typ_img {
   padding-top: 20px;
   padding-bottom: 20px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
   width: 100%;
 }
 
