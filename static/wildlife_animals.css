@@ -15,15 +15,17 @@
 }
 
 .search-animals {
+  margin:15px;
   padding: 10px;
 }
 
 #animals-categories, #animals-status {
-  padding: 20px;
   cursor: pointer;
   border-radius: 5em;
   background-color: var(--lightGreen);
   color:var(--darkGreen);
+  margin: 5px;
+  width: 50%;
 }
 
 .search_text{
@@ -32,17 +34,16 @@
   padding-top:0;
 
 }
-#animals-categories {
-  text-align: center;
-  padding:5%;
-  padding-top:0;
-
+.search-category select {
+  text-align-last:center;
+  padding:10px;
+ 
 }
 
-#animals-status {
+.search-status select {
   text-align: center;
-  padding:5%;
-  padding-top:0;
+  padding:10px;
+
 }
 
 .animals-top h3 {
@@ -67,13 +68,14 @@
 
 #loadmore{
   font-size: 1rem;
-  background-color:var(--darkGreen);
+  background-color:orange;
   color: White;
   padding: 5px;
   border-radius: 10px;
   border: none;
   cursor: pointer;
   width: 30%;
+  margin-bottom: 10px;
 }
 
 #loadmore:hover{
@@ -125,6 +127,21 @@
     height: 75%;
   }
   
+  #animals-categories, #animals-status {
+    width: 100%;
+  }
+
+  .search-category {
+    margin-right: 20px;
+  }
+
+  .search-status {
+    margin-right: 20px;
+  }
+
+  .search_text {
+    margin-left:50px;
+  }
 }
 @media screen and (min-width: 1080px) {
   .animals-top h3 {
