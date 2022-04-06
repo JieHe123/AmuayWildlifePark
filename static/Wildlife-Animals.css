@@ -42,11 +42,28 @@
   padding-top:0;
 }
 
+.animals-top h3 {
+  display: flex;
+  top: 90px;
+  width: 100%;
+  position: absolute;
+  color:var(--darkGreen);
+  justify-content: left;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+
 @media screen and (min-width: 600px) {
   .search-animals {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 5px;
+  }
+
+  .animals-top h3 {
+    font-size: 25px;
+    padding-left: 20px;
   }
 }
 
@@ -77,5 +94,11 @@
   align-content: center;
   width: 100%;
   padding: 5spx;
+}
 
+@media screen and (min-width: 1080px) {
+  .animals-top h3 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
 }

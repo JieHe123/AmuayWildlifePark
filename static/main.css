@@ -53,6 +53,7 @@ nav a:hover{
 
 nav li {
   list-style-type: none;
+
 }
 
 #toggleNav {
@@ -79,7 +80,7 @@ nav {
   padding-right: 10px;
   position: fixed;
   cursor: pointer;
-  color: white;
+  color:darkgray;
   font-size: 2rem;
   z-index: 10;
 }
