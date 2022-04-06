@@ -1,305 +1,69 @@
-:root {
-  --darkGreen: #222601;
-  --lightGreen: #BDBF09;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: white;
-  font-family: 'Nunito', sans-serif;
-}
-
-.container {
-  background-color: var(--darkGreen);
-  padding: 1em;
-  width: 100%;
-  top: 0;
-}
-
-.logo {
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--lightGreen);
-  font-size: 1.2em;
-  margin-left: 10px;
-}
-
-.logo-second-line {
-  font-family: 'ZCOOL KuaiLe', cursive;
-  color: white;
-  font-size: 0.8em;
-}
-
-nav a {
-  text-decoration: none;
-  color: Black;
-  display: block;
-  padding: 10px;
-  text-align: right;
-  background-color: var(--lightGreen);
-}
-
-nav a:hover {
-  background-color: white;
-  color: var(--darkGreen);
-  cursor: pointer;
-  font-weight: bold;
-}
-
-nav li {
-  list-style-type: none;
-}
-
-#toggleNav {
-  display: none;
-}
-
-nav {
-  width: 400px;
-  position: fixed;
-  right: -400px;
-  top: 74px;
-  transition: right 300ms ease-in-out;
-  z-index: 10;
-}
-
-#toggleNav:checked~nav {
-  right: 0;
-}
-
-.toggleLook {
-  height: 50px;
-  top: 15px;
-  right: 0;
-  padding-right: 10px;
-  position: fixed;
-  cursor: pointer;
-  color: white;
-  font-size: 2rem;
-  z-index: 10;
-}
-
-.flex-container {
-  background-color: var(--lightGreen);
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.left-division {
-  padding: 20px;
-  text-align: center;
-}
-
-.left-division span {
-  color: white;
-  font-family: 'ZCOOL KuaiLe', cursive;
-  font-size: 0.8em;
-}
-
-.contact-information {
-  padding: 5px;
-  list-style-type: none;
-}
-
-.contact-information li {
-  padding: 3px;
-  color: white;
-  font-weight: bold;
-}
-
-.contact-information h4 {
-  color: var(--darkGreen);
-}
-
-.right-division {
-  padding: 10px;
-  text-align: center;
-  display: block;
-}
-
-.subscribe {
-  background-color: red;
-  color: white;
-  border-color: red;
-  border-radius: .2em;
-}
-
-.newsletter {
-  display: block;
-  padding-bottom: 5px;
-}
-
-#email {
-  width: 200px;
-  height: 25px;
-}
-
-hr {
-  display: none;
-}
-
-.social {
-  padding: 5px;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
-
-.social li {
-  padding: 7px;
-}
-
-.social i {
-  color: white;
-}
-
-@media screen and (min-width: 600px) {
-  .toggleLook {
-    display: none;
-  }
-
-  .current a {
-    color: var(--lightGreen);
-    font-weight: bold;
-  }
-
-  nav {
-    right: 0;
-    top: 20px;
-    position: absolute;
-  }
-
-  nav ul {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  nav a {
-    background-color: var(--darkGreen);
-    color: white;
-  }
-
-  footer .flex-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .right-division {
-    width: 50%;
-    text-align: center;
-  }
-
-  .left-division {
-    width: 50%;
-    text-align: left;
-  }
-
-  .newsletter {
-    padding-top: 15px;
-    text-align: center;
-  }
-
-  .subscribe {
-    display: block;
-    width: 100px;
-    height: 30px;
-    margin: auto;
-  }
-
-  #email {
-    margin-top: 8px;
-    margin-bottom: 15px;
-  }
-
-  hr {
-    display: block;
-    margin-top: 25px;
-    border: .05px solid var(--darkGreen);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .social {
-    padding-top: 20px;
-    font-size: 1.4em;
-  }
-}
-
 section {
-  background-color: white;
-  max-width: 1700px;
-  margin: auto;
+    margin: 0 5%;
 }
 
-.plan_your_visit_middle h1 {
-  text-align: center;
-  margin: 80px;
-  font-size: 40px;
-  font-family: cursive;
-}
-
-.imageSection {
-  width: 300px;
-}
-
-
-.allImage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  padding: 0 50px;
-}
-
-.allImage div {
-  flex: 1 0 500px;
-  text-align: center;
-  margin: 30px;
-  padding: 10px 0px;
-  color: #000;
-
-align-items:center;
-justify-content:center;
-}
-.imageSection h3{
-margin-top: -80px;
-color: white;
-font-size: 30px;
-}
 .imageSection img {
-  height: 500px;
-  width: 500px;
-  object-fit: cover;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .imageSection p {
-
-  height: 80px;
-  width: 400px;
+    height: auto;
+    font-family: sans-serif;
+    width: 100%;
     word-wrap: break-word;
     text-align: left;
-    margin: 50px auto 0 auto;
+    margin: 10% auto 0 auto;
+}
+
+.plan_your_visit_middle h1 {
+    text-align: center;
+    margin: 10% -5%;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.allImage div {
+    /* flex: 1 0 500px; */
+    text-align: center;
+    margin: 30px;
+    padding: 10px 0px;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageSection h3 {
+    margin-top: -15%;
+    color: white;
+    font-size: 2rem;
 }
 
 .plan_your_visit_middle button {
-  background-color: orange;
-  padding: 20px 170px;
-  font-size: 18px;
-  border: none;
-  border-radius: 12px;
+    background-color: orange;
+    padding: 20px 20%;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    margin: 10%;
 }
+
 .plan_your_visit_middle button:hover {
-  background-color: darkGreen;
+    background-color: darkGreen;
 }
-.plan_your_visit_middle a{
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
+
+.plan_your_visit_middle a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    .allImage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5px;
+    }
 }

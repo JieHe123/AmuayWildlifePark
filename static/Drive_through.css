@@ -1,0 +1,64 @@
+section{
+    margin:0 10% ;
+}
+.imageSectionDriveThrough {
+    margin:10% 2% ;
+    text-align: center;
+}
+
+.description {
+    margin:10% 2% ;
+    min-width: 300px;
+    text-align: left;
+}
+
+.imageSectionDriveThrough img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.description h3 {
+    height: 50px;
+    max-width: 500px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.description h4 {
+    font-family: sans-serif;
+    height: 40px;
+    text-align: left;
+}
+
+.description h5 {
+    font-family: sans-serif;
+    line-height: 30px;
+    color: brown;
+}
+
+.description p {
+    width: 100%;
+}
+.stars {
+    align-items: center;
+}
+
+.stars h5 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.description img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 600px) {
+    .twoImages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5px;
+    }
+}
