@@ -34,22 +34,19 @@ section h5 {
   margin: 10% 0;
 }
 
-section button {
+section a {
   background-color: orange;
   padding: 5% 15%;
   font-size: 18px;
   border: none;
   border-radius: 12px;
-}
-
-section button:hover {
-  background-color: darkGreen;
-}
-
-button a {
   text-decoration: none;
   font-weight: bold;
   color: white;
+}
+
+section a:hover {
+  background-color: darkGreen;
 }
 
 @media screen and (min-width: 600px) {
