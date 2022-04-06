@@ -2,7 +2,7 @@
   text-align: center;
   padding:5%;
   padding-top:0;
-  border: 1px darkGreen solid;
+  
 }
 
 .animals_typ_img {
@@ -14,19 +14,22 @@
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
-  .animals-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-  }
+.search-animals {
+  padding: 10px;
+}
+
+#animals-categories, #animals-status {
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 5em;
+  background-color: var(--lightGreen);
+  color:var(--darkGreen);
 }
 
 .search_text{
   text-align: center;
   padding:5%;
   padding-top:0;
-  border: 10px;
 
 }
 #animals-categories {
@@ -54,19 +57,6 @@
 }
 
 
-@media screen and (min-width: 600px) {
-  .search-animals {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-  }
-
-  .animals-top h3 {
-    font-size: 25px;
-    padding-left: 20px;
-  }
-}
-
 .button1{
   display: flex;
   align-content: center;
@@ -76,12 +66,20 @@
 }
 
 #loadmore{
-  font-size: 1.5rem;
-  background-color: darkGreen;
+  font-size: 1rem;
+  background-color:var(--darkGreen);
   color: White;
-    padding: 5px;
+  padding: 5px;
   border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
 }
+
+#loadmore:hover{
+  background-color: darkGreen;
+}
+
 .search_text{
   font-weight: bold;
   display: flex;
@@ -96,9 +94,45 @@
   padding: 5spx;
 }
 
+.animals-info p{
+  color: #8C4F2B;
+  font-weight: bold;
+}
+
+.animals-info p span{
+  font-weight: normal;
+}
+
+@media screen and (min-width: 600px) {
+  .animals-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+
+  .search-animals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+
+  .animals-top h3 {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  #sloth, #jaguar {
+    height: 75%;
+  }
+  
+}
 @media screen and (min-width: 1080px) {
   .animals-top h3 {
     font-size: 30px;
     padding-left: 20px;
+  }
+
+  #sloth, #jaguar {
+    height: 78%;
   }
 }
