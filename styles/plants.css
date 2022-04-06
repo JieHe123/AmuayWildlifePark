@@ -22,16 +22,18 @@
 }
 
 .search-plants select {
+  text-align-last: center;
   width: 100%;
+  padding: 10px;
 }
 
 #plants-categories, #plants-status {
   cursor: pointer;
-  padding: 20px;
-  cursor: pointer;
   border-radius: 5em;
   background-color: var(--lightGreen);
   color: var(--darkGreen);
+  margin: 5px;
+  width: 100%;
 }
 
 .search_text {
@@ -42,14 +44,10 @@
 
 #plants-categories {
   text-align: center;
-  padding: 5%;
-  padding-top: 0;
 }
 
 #plants-status {
   text-align: center;
-  padding: 5%;
-  padding-top: 0;
 }
 
 .plants-top h3 {
